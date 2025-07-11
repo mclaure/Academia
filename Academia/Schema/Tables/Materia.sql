@@ -2,4 +2,5 @@
 (
    IDMateria INT CONSTRAINT PK_Materia PRIMARY KEY
   ,Nombre VARCHAR(20)
+  ,Area   VARCHAR(10)
 );
