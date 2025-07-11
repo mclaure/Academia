@@ -1,0 +1,7 @@
+﻿CREATE TABLE Kardex
+(
+    ID INT IDENTITY(1,1) 
+   ,IDEstudiante INT CONSTRAINT FK_Est_Kdx FOREIGN KEY REFERENCES Estudiante(IDEstudiante)
+   ,IDMateria    INT CONSTRAINT FK_Mat_Kdx FOREIGN KEY REFERENCES Materia(IDMateria)
+   ,Nota INT CONSTRAINT CK_Nota CHECK(Nota>0 AND Nota<=100)
+); 

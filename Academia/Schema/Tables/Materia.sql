@@ -1,0 +1,5 @@
+﻿CREATE TABLE Materia
+(
+   IDMateria INT CONSTRAINT PK_Materia PRIMARY KEY
+  ,Nombre VARCHAR(20)
+);
