@@ -5,4 +5,5 @@
   ,Apellido VARCHAR(20)
   ,Edad INT
   ,Genero VARCHAR(10)
+  ,ciudad VARCHAR(50)
 );
